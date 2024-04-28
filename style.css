@@ -1,0 +1,50 @@
+.index-page {
+  position: relative;
+  height: 1000px; /* Set the height to your background image’s height */
+}
+
+.background-image {
+  background-image: url(Header.JPG);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-container {
+  width: 400px;
+  display: flex;
+  min-height: 400px;
+  position: relative;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.flex-container-child{
+  flex-grow: 1;
+}
+.card-content {
+  padding: 16px; /* Spacing inside the card */
+}
+
+.card-title {
+  margin: 0;
+  color: #ecb3e0;
+  font-size: 1.5em; /* Title size */
+  font-weight: bold; /* Title weight */
+}
+
+.card-text {
+  font-size: 1em; /* Text size */
+  color: #6c3d5d; /* Text color */
+}
+
